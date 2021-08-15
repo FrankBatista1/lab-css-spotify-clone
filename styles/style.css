@@ -6,3 +6,164 @@ Green: #00B172
 White: #FFF
 
 */
+@font-face {
+    font-family: 'spotify-circular';
+    src: url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff2') format('woff2'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff') format('woff'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.ttf') format('truetype');
+    font-weight: 200;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'spotify-circular';
+  }
+  
+  * {
+    box-sizing: border-box; 
+  }
+
+ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 320px;
+  }
+  
+  .main {
+    width: 100%;
+    height: 120vh; 
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-image: url('/images/landing.jpg')
+  }
+  
+  .logonav {
+    width: 170px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+    background-color: #fff;
+    z-index: 1; 
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  nav ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    font-size: 500%;
+    align-self: center;
+  }
+
+  .text-homepage{
+    font-size: 200%;
+    text-align: center;
+    }
+
+  .homepage {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.titleabout {
+    text-align: center;
+    border-bottom: 4px solid #00B172;
+    margin: 30px 620px
+   
+}
+
+
+.aboutdivs img{
+    margin: 30px;
+    width: 100px;
+}
+.subtitlesabout{
+    font-size: 140%;
+    color: #00B172;
+}
+.aboutdivs p{
+    font-size: 140%;
+}
+
+.spotifyabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.KWsection{
+    background-color: #00B172;
+    height: 80vh; 
+    margin: 0 20px;
+    position: relative;
+}
+.KWsection p{
+
+    color: #fff;
+    line-height: 35px;
+    margin-left: 67px   ;
+}
+
+.titleKWsection{
+    text-align: left;
+    border-bottom:4px solid #fff;
+    color:#fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 6px;
+    margin:0 70% 0 67px;
+    
+}
+
+.subtitlesKWsection{
+    color: #fff;
+    font-size: 25px;
+    margin-left:67px;
+}
+
+.spotifywhitelogo{
+    width: 10%;
+    position: absolute;
+    top: 37%;
+    right: 45%
+}
+.KWMobile{
+    position: absolute;
+    width: 20%;
+    right: 65px;
+    top: 85px
+}
+
